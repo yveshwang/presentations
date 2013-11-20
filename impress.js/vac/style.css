@@ -5,8 +5,8 @@ body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; }
 	position: fixed;
 	height: 100%;
 	width: 100%;
-	background: -moz-radial-gradient(50% 50%, farthest-side, #fff, #efefef);
-	background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#fff), to(#efefef));
+	background: -moz-radial-gradient(50% 50%, farthest-side, #EA617F, #EA617F);
+    background: -webkit-gradient(radial, 50% 50%, 250, 50% 50%, 750, from(#EA617F), to(#EA617F));
 	z-index: 0;
     opacity: 1;
 }
