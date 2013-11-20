@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <title>VAC</title>
-    
-    <meta name="description" content="Varnish Administration Console: an overview">
-    <meta name="author" content="Maryam Mehrabian" />
+	<meta charset="utf-8" />
+	<title>VAC</title>
 
-    <link href='font.css' rel='stylesheet' type='text/css'>
-    <link href="normalize.css" rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" />
+	<meta name="description" content="Varnish Administration Console: an overview">
+	<meta name="author" content="Maryam Mehrabian" />
+
+	<link href='font.css' rel='stylesheet' type='text/css'>
+	<link href="normalize.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet" />
 </head>
 <body>
 	<div class="background"></div>
@@ -20,7 +20,7 @@
 		
 		<div id="title" class="step" data-x="540" data-y="600" data-scale="4.5">
 			<div class="big bold"> 
-				<div id="big bold title">Product updates</div>
+				<div id="big bold title">Varnish Plus Tools</div>
 				<div class="img-wrap img-inline" id="img-obama-m">
 					<img src="img/newBunny.png" class="img-border" length="1000"/>
 				</div>
@@ -28,52 +28,105 @@
 			</div> 
 		</div>
 
-	<div id="vac" class="step" data-x="-1700" data-y="5" data-scale="1">
-		<div class="big bold title">VAC</div>
-	</div>
-	
-	
-	<div id="vac-quote" class="step" data-x="-1700" data-y="300" data-scale="1">
-		<div class="big bold" id="who-real-real"> Management console for groups of Varnish Caches</div>
-	</div>
-	
-	
-	<div id="screens" class="step" data-x="-1700" data-y="1000" data-scale="1">
-		
-		<span>MANAGING CLUSTERS OF VARNISH</span>
-		
-		<div class="img-wrap img-inline" id="img-obama-m">
-				<img src="img/dashboard.png" class="img-border" />
+		<div id="vac" class="step" data-x="-1700" data-y="5" data-scale="1">
+			<div class="big bold title">VAC</div>
 		</div>
-		<div class="img-wrap img-inline" id="img-obama-m">
-				<img src="img/overview.png" class="img-border" />
+		
+		<div id="vac-quote" class="step" data-x="-1700" data-y="300" data-scale="1">
+			<div class="big bold" id="who-real-real"> Management console for groups of Varnish Caches</div>
 		</div>
-		<p>Realtime/hostorical graphs</p>
-		<span>Varnish Cache group management</span><p></p>
-		<p>Built-in ban management</p>
-	</div>	
-	
-		<div id="screens" class="step" data-x="-1700" data-y="1600" data-scale="1">
-			 <div class="big bold title">API</div>
-	              
-	   	 <div class="big light" id="who-bg-desc">Support automation and ease of testing</div>
-	     <p> Queried based on time and samples with varying resolution</p>
-	                
-       
-	</div>
 
+		<div id="who-obama" class="step" data-x="-1700" data-y="700" data-scale=".48">
+			<a href="http://varnish-software.com" class="img-link">
+				<div class="img-wrap img-inline" id="img-obama-s">
+					<img src="img/bans.png" class="img-border" />
+				</div>
+				<div class="img-wrap img-inline" id="img-obama-m">
+					<img src="img/overview.png" class="img-border" />
+				</div>
+				<div class="img-wrap img-inline" id="img-obama-l">
+					<img src="img/dashboard.png" class="img-border" />
+				</div>
+			</a>
+			<div class="big bold" id="who-obama">Management UI</div>
+			<div class="big light" id="who-obama-desc">VAC</div>
+			<a href="http://varnish-software.com" class="small">vacdemo.varnish-software.com</a>
+		</div>
+
+		<div id="screens" class="step" data-x="-1700" data-y="1100" data-scale="1">
+			<div class="big bold title">API</div>
+		</div>
+
+		<div id="screens" class="step" data-x="-1700" data-y="1300" data-scale="1">
+			<div class="big light">Realtime/historical statisic API</div>
+		</div>
+
+		<div id="screens" class="step" data-x="-1700" data-y="1400" data-scale="1">
+			<div class="big light">Cache Management API</div>
+		</div>
+		<div id="screens" class="step" data-x="-1700" data-y="1500" data-scale="1">
+			<div class="big light">Cache invalidation API</div>            
+		</div>
+		<div id="who-boston" class="step" data-x="-1700" data-y="1900" data-scale=".48">
+			<a href="http://www.morningstar.com" class="img-link">
+				<div class="img-wrap img-inline" id="img-bg-s">
+					<img src="img/ms_s.png" class="img-border" style=/>
+				</div>
+				<div class="img-wrap img-inline" id="img-bg-m">
+					<img src="img/ms_m.png" class="img-border" />
+				</div>
+				<div class="img-wrap img-inline" id="img-bg-l">
+					<img src="img/ms_l.png" class="img-border" />
+				</div>
+			</a>
+			<div class="big bold" id="who-bg">Morningstar</div>
+			<div class="big light" id="who-bg-desc">a leading provider of independent investment research</div>
+			<a href="http://www.morningstar.com" class="small">morningstar.com</a>
+		</div>
+
+		<div id="who-greygoose" class="step" data-x="-1700" data-y="2300" data-scale=".48">
+			<a href="http://www.boklink.no" class="img-link">
+				<div class="img-wrap img-inline" id="img-greygoose-s">
+					<img src="img/boklink.png" />
+				</div>
+
+			</a>
+			<div class="big bold" id="who-greygoose">Boklink</div>
+			<div class="big light" id="who-greygoose-desc">perveyor of ez publishing</div>
+			<a href="http://www.boklink.no" class="small">boklink.no</a>
+		</div>
 		<div id="vagent" class="step" data-x="-200" data-y="10" data-scale="1">
 			<div class="big bold title">Vagent</div>
 		</div>
-		<div id="Vagent2" class="step" data-x="-200" data-y="370" data-scale="1">
 		
+		<div id="screen" class="step" data-x="-200" data-y="370" data-scale="1">
 			<div class="big light" id="who-real-not">Vagent2 is released</div>
-			<div class="big bold" id="who-real-real">Restful interface for varnish administration</div>
+			<div class="big bold" id="who-real-real">RESTful</div>
+			<div class="big bold" id="who-real-real">interface for varnish</div>
 		</div>
 
-		
-		<div id="And more" class="step" data-x="-200" data-y="700" data-scale="1">
-			<div class="big bold" id="who-bg">And more</div>
+		<div class="step" data-x="-200" data-y="700" data-scale="1">
+			<div class="big bold title">JSON</div>
+		</div>
+
+		<div id="Vagent2" class="step" data-x="-200" data-y="1100" data-scale="1">
+			<div class="big bold" id="who-real-real">varnishstat</div>
+		</div>
+
+		<div id="Vagent2" class="step" data-x="-200" data-y="1200" data-scale="1">
+			<div class="big bold" id="who-real-real">varnishlog</div>
+		</div>
+
+		<div id="Vagent2" class="step" data-x="-200" data-y="1300" data-scale="1">
+			<div class="big bold" id="who-real-real">varnishadm</div>
+		</div>
+
+		<div id="Vagent2" class="step" data-x="-200" data-y="1400" data-scale="1">
+			<div class="big bold" id="who-real-real">varnishtop</div>
+		</div>
+
+		<div id="And more" class="step" data-x="-200" data-y="1500" data-scale="1">
+			<div class="big bold" id="who-bg">And more</div>			
 			<div class="big light" id="who-bg-desc">https://github.com/varnish/vagent2</div>
 		</div>
 		
@@ -82,48 +135,72 @@
 		</div>
 		
 		<div id="vcs-1" class="step" data-x="1300" data-y="370" data-scale="1">
-			<p>High performance key-value store for statistical data</p>
+			<div class="big bold">High performance API for customisable statistical data</div>
 		</div>
-		<p>
-		<div id="vcs-2" class="step" data-x="1300" data-y="700" data-scale="1">
-			<div>
-				<div class="big bold">valuable realtime tool for</div>
-				
-				<p>Collecting real-time statistical data</p>
-			
-			<p>Identify issues in Varnish setup</p>
-			</div>
-		</div>
-		</p>
 		
-		<div id="vcs-3" class="step" data-x="1300" data-y="1000" data-scale="1">
-			<p>Presents data in JSON format</p>
+		<div id="vcs-2" class="step" data-x="1300" data-y="700" data-scale="1">
+			<div class="big light">configurable via VCL</div>
+		</div>
+
+		<div id="vcs-2" class="step" data-x="1300" data-y="800" data-scale="1">
+			<div class="big light">realtime</div>
+		</div>
+
+		<div id="vcs-2" class="step" data-x="1300" data-y="900" data-scale="1">
+			<div class="big light">key-value store</div>
+		</div>
+
+		<div id="vcs-2" class="step" data-x="1300" data-y="1000" data-scale="1">
+			<div class="big light">JSON</div>
+		</div>
+
+		<div id="vcs-2" class="step" data-x="1300" data-y="1100" data-scale="1">
+			<div class="big light">Queries</div>
 		</div>
 		
 		<div id="vcs-4" class="step" data-x="1300" data-y="1300" data-scale="1">
-			<div class="big light" id="how-best3-exit">Examples</div>
-			
+			<div class="big title" id="how-best3-exit">Examples</div>
 		</div>
 		
-		<div id="vcs-5" class="step" data-x="1300" data-y="1700" data-scale="1">
-			<div class="img-wrap img-inline" id="img-obama-m">
-					<img src="img/VGnett.png" class="img-border" length="1000"/>
-		    </div>
+		<div id="vcs-4" class="step" data-x="1300" data-y="1400" data-scale="1">
+			<div class="big light">Unique page view impressions</div>
+		</div>
 
-		    <blockquote>&ldquo;VCS is the best thing that has come from Varnish Software since Varnish Cache. Straightforward tool which helps us to figure out easily what is happening in our user traffic.&rdquo;</blockquote>
-		    
+		<div id="vcs-4" class="step" data-x="1300" data-y="1500" data-scale="1">
+			<div class="big light">Realtime A/B Testing</div>
+		</div>
+
+		<div id="vcs-4" class="step" data-x="1300" data-y="1600" data-scale="1">
+			<div class="big light">Production debugging</div>
 		</div>
 		
-		<div id="vcs-6" class="step" data-x="1300" data-y="2000" data-scale="1">
-			<div class="big light">VCS 1.3.0 is out</div>
+		<div id="vcs-5" class="step" data-x="1300" data-y="2000" data-scale="1">
+			<div class="img-wrap img-inline" id="img-obama-m">
+				<img src="img/VGnett.png" class="img-border" length="1000"/>
+			</div>
+
+			<blockquote>&ldquo;VCS is the best thing that has come from Varnish Software since Varnish Cache. Straightforward tool which helps us to figure out easily what is happening in our user traffic.&rdquo;</blockquote>
+
 		</div>
 		
-		 <div class="step" id="credits" data-x="-10" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".2">
-                <div class="big bold">Thanks!</div>
-                <p class="first">an <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation by Maryam Mehrabian</p>
-                <!-- <p>HTML and CSS based on &ldquo;What the heck is responsive web design?&rdquo; <a href="http://http://johnpolacek.github.io/WhatTheHeckIsResponsiveWebDesign-impressjs/#/title">John Polacek</a></p> -->
+		<div id="vcs-6" class="step" data-x="1300" data-y="2400" data-scale="1">
+			<div class="big bold">VCS 1.3.0 is out</div>
+			<div class="big light">get in touch with us to try it out!</div>
+		</div>
+		
+		<div id="why-quote" class="step" data-x="2800" data-y="10" data-scale="1">
+            <blockquote>&ldquo;Varnish is our favored HTTP cache and we use it heavily; 
+                                whenever you load photos and profile pictures of your friends on Facebook, 
+                                there's a very good chance that Varnish is involved.&rdquo;
+            <span class="author">- David Recordon, Head of open source initiatives, Facebook</span></blockquote>
         </div>
-	
+
+		<div class="step" id="credits" data-x="-10" data-y="0" data-rotate="-90" data-rotate-y="90" data-scale=".2">
+			<div class="big bold">Thanks!</div>
+			<p class="first">an <a href="http://bartaz.github.com/impress.js/">impress.js</a> presentation by Yves Hwang</p>
+			<p class="last"><a href="mailto:yves@varnish-software.com">yves@varnish-software.com</a></p>
+			<!-- <p>HTML and CSS based on &ldquo;What the heck is responsive web design?&rdquo; <a href="http://http://johnpolacek.github.io/WhatTheHeckIsResponsiveWebDesign-impressjs/#/title">John Polacek</a></p> -->
+		</div>
 	</div>
 	<script src="jquery.min.js"></script>
 	<script src="impress.js"></script>
